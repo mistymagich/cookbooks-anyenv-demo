@@ -1,0 +1,23 @@
+DEPENDENCIES
+  cookbooks-anyenv
+    git: https://github.com/mistymagich/cookbooks-anyenv.git
+    revision: fba7808c94cfba2ca58c6bf7b68e6cbc7d1804bd
+
+GRAPH
+  build-essential (2.2.3)
+  chef_handler (1.2.0)
+  cookbooks-anyenv (0.1.0)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  dmg (2.2.2)
+  git (4.2.2)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  windows (1.37.0)
+    chef_handler (>= 0.0.0)
+  yum (3.6.1)
+  yum-epel (0.6.2)
+    yum (~> 3.2)
